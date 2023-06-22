@@ -4,9 +4,11 @@ const nextConfig = {
     appDir: true,
   },
   reactStrictMode: true,
+  trailingSlash: true,  
   basePath: "",
   pageExtensions: ["js", "jsx", "ts", "tsx", "mdx"],
   images: {
+      unoptimized: true,  
     //domains: ["storageapi.fleek.co", "savivets.wpengine.com"],
     remotePatterns: [
       {
